@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "F-3188_CSR8645")(type "Legacy")(uri "${KIPRJMOD}/third_party/tomaskovacik/library/F-3188_CSR8645.lib")(options "")(descr ""))
+)
