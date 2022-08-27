@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name "F-3188_CSR8645")(type "Legacy")(uri "${KIPRJMOD}/third_party/tomaskovacik/library/F-3188_CSR8645.lib")(options "")(descr ""))
+  (lib (name "ST EEPROM")(type "Legacy")(uri "${KIPRJMOD}/third_party/st/library/2022-08-27_17-15-02.lib")(options "")(descr ""))
 )
