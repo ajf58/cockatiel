@@ -1,0 +1,82 @@
+(footprint "Transformer_Triad_T Y-141PN" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 5BEAF804)
+  (descr "NF-Transformer, 1:1, ETAL P1200,http://www.etalgroup.com/sites/default/files/products/P1200_April_2005.pdf")
+  (tags "NF-Transformer 1to1 ETAL P1200 ")
+  (attr through_hole)
+  (fp_text reference "REF**" (at 5.08 -15.494) (layer "F.SilkS")
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp e5a8582c-0081-4c5e-8a70-b25c7740f9ad)
+  )
+  (fp_text value "Transformer_Triad_TY-141P" (at 4.7498 4.826) (layer "F.Fab")
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 1a3e5be2-163f-414d-9593-bcb05ac040ac)
+  )
+  (fp_text user "1" (at 0 -1.778 unlocked) (layer "F.SilkS")
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 8d1b1176-91bc-4636-ae76-02408e4c8ce9)
+  )
+  (fp_text user "1:1" (at -3.81 -5.969 unlocked) (layer "F.SilkS")
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 942644d9-d9fd-495d-a0db-2fff1d062a1a)
+  )
+  (fp_text user "${REFERENCE}" (at -3.048 2.286) (layer "F.Fab")
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 9a2476ed-223f-400b-9a55-ab2c97837f20)
+  )
+  (fp_line (start -2.286 -5.7785) (end 11.684 -5.7785) (layer "F.SilkS") (width 0.12) (tstamp 032f03ed-9a9d-466f-8962-d8291cfcf091))
+  (fp_line (start -2.286 -7.312356) (end -2.286 -8.943644) (layer "F.SilkS") (width 0.12) (tstamp 32307d1f-d172-4ee8-88a4-b3c5645cd228))
+  (fp_line (start -2.286 -4.498644) (end -2.286 -2.8575) (layer "F.SilkS") (width 0.12) (tstamp 33421cff-2a7a-4401-bb16-de9784929ed4))
+  (fp_line (start 11.684 -7.3025) (end 11.684 -8.943644) (layer "F.SilkS") (width 0.12) (tstamp 777e287d-d9be-4dd6-88b2-1091bcafe29a))
+  (fp_line (start 4.699 -6.530644) (end 4.699 -8.308644) (layer "F.SilkS") (width 0.12) (tstamp 7ec28e0b-179b-4bf9-be2f-2c6fdd736c85))
+  (fp_line (start -2.286 -6.1595) (end 11.684 -6.1595) (layer "F.SilkS") (width 0.12) (tstamp a64d98b0-d514-45ce-b1e5-c6d89cd9c28d))
+  (fp_line (start 11.684 -4.488788) (end 11.684 -2.8575) (layer "F.SilkS") (width 0.12) (tstamp a86afd2a-a810-4fe0-8d4d-0f015704a4f2))
+  (fp_line (start 4.699 -5.2705) (end 4.699 -3.4925) (layer "F.SilkS") (width 0.12) (tstamp fc35de28-162f-44e4-898c-f1386de02ffb))
+  (fp_rect (start -5.5626 -14.478) (end 15.0622 3.302) (layer "F.SilkS") (width 0.12) (fill none) (tstamp 49fb405b-21c3-4a7d-b068-57968bf911e0))
+  (fp_arc (start 6.096 -7.3025) (mid 4.699 -6.530644) (end 3.302 -7.3025) (layer "F.SilkS") (width 0.12) (tstamp 0debe209-6077-4dc0-933e-120e92cdaeef))
+  (fp_arc (start 8.89 -4.488788) (mid 10.287 -5.260644) (end 11.684 -4.488788) (layer "F.SilkS") (width 0.12) (tstamp 2679b5ce-b286-44cd-9fa4-10de22abb701))
+  (fp_arc (start 0.508 -4.5085) (mid 1.905 -5.280356) (end 3.302 -4.5085) (layer "F.SilkS") (width 0.12) (tstamp 283b599e-6203-4ccd-83f6-86d4a246ab6c))
+  (fp_arc (start 11.684 -7.3025) (mid 10.287 -6.530644) (end 8.89 -7.3025) (layer "F.SilkS") (width 0.12) (tstamp 3f04adb4-17b2-4759-ba7a-ffe49e0409c3))
+  (fp_arc (start 8.89 -7.292644) (mid 7.493 -6.520788) (end 6.096 -7.292644) (layer "F.SilkS") (width 0.12) (tstamp 55f213e1-70d1-4530-aaee-6b3f56bd06c0))
+  (fp_arc (start -2.286 -4.498644) (mid -0.889 -5.2705) (end 0.508 -4.498644) (layer "F.SilkS") (width 0.12) (tstamp 6872350c-2205-44bd-a8ab-2eb343a165c5))
+  (fp_arc (start 0.508 -7.312356) (mid -0.889 -6.5405) (end -2.286 -7.312356) (layer "F.SilkS") (width 0.12) (tstamp 9e2883b1-ae7c-4ec5-afb0-0a6ad4f1959d))
+  (fp_arc (start 6.096 -4.498644) (mid 7.493 -5.2705) (end 8.89 -4.498644) (layer "F.SilkS") (width 0.12) (tstamp cbab67f5-6f3d-4863-83b0-588d5a59798f))
+  (fp_arc (start 3.302 -4.498644) (mid 4.699 -5.2705) (end 6.096 -4.498644) (layer "F.SilkS") (width 0.12) (tstamp df707f98-6fdc-4899-a555-aef848c1b44a))
+  (fp_arc (start 3.302 -7.3025) (mid 1.905 -6.530644) (end 0.508 -7.3025) (layer "F.SilkS") (width 0.12) (tstamp fcf78878-7d0d-4ad0-b57e-d36ef4c5ce11))
+  (fp_circle (center 1.524 -1.016) (end 1.778 -1.016) (layer "F.SilkS") (width 0.12) (fill solid) (tstamp 09172988-d082-45bd-a14a-7ed444498afe))
+  (fp_rect (start -5.588 -14.478) (end 14.986 3.302) (layer "F.Fab") (width 0.1) (fill none) (tstamp 4801ddd8-c7d4-411c-b551-cc052d79aa6f))
+  (pad "1" thru_hole rect (at 0 0) (size 1.52 1.52) (drill 0.81) (layers *.Cu *.Mask) (tstamp 9777bb50-70a2-43ed-879b-083ec0addb13))
+  (pad "2" thru_hole circle (at 4.7498 0) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask) (tstamp b024ba0b-5987-4f25-af3c-d2b2da9ef6e9))
+  (pad "3" thru_hole circle (at 9.4996 0) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask) (tstamp 7d117319-b593-44d5-9afa-20fce0ffadf6))
+  (pad "4" thru_hole circle (at 0 -10.668) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask) (tstamp d5713523-892e-4c3e-a2e5-a87512486f19))
+  (pad "5" thru_hole circle (at 4.7498 -10.668) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask) (tstamp 3a6382fe-09b5-49f4-a8dc-be7129dbb035))
+  (pad "6" thru_hole circle (at 9.4996 -10.668) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask) (tstamp 55209171-28d9-4a18-830d-acf5325c29fc))
+  (group "" (id 0ec67541-8be3-4898-b7a9-df7307503fc2)
+    (members
+      032f03ed-9a9d-466f-8962-d8291cfcf091
+      0debe209-6077-4dc0-933e-120e92cdaeef
+      2679b5ce-b286-44cd-9fa4-10de22abb701
+      283b599e-6203-4ccd-83f6-86d4a246ab6c
+      32307d1f-d172-4ee8-88a4-b3c5645cd228
+      33421cff-2a7a-4401-bb16-de9784929ed4
+      3f04adb4-17b2-4759-ba7a-ffe49e0409c3
+      55f213e1-70d1-4530-aaee-6b3f56bd06c0
+      6872350c-2205-44bd-a8ab-2eb343a165c5
+      777e287d-d9be-4dd6-88b2-1091bcafe29a
+      7ec28e0b-179b-4bf9-be2f-2c6fdd736c85
+      942644d9-d9fd-495d-a0db-2fff1d062a1a
+      9e2883b1-ae7c-4ec5-afb0-0a6ad4f1959d
+      a64d98b0-d514-45ce-b1e5-c6d89cd9c28d
+      a86afd2a-a810-4fe0-8d4d-0f015704a4f2
+      cbab67f5-6f3d-4863-83b0-588d5a59798f
+      df707f98-6fdc-4899-a555-aef848c1b44a
+      fc35de28-162f-44e4-898c-f1386de02ffb
+      fcf78878-7d0d-4ad0-b57e-d36ef4c5ce11
+    )
+  )
+  (model "${KICAD6_3DMODEL_DIR}/Transformer_THT.3dshapes/Transformer_NF_ETAL_1-1_P1200.wrl"
+    (offset (xyz 10 8.5 0))
+    (scale (xyz 0.85 0.75 0.8))
+    (rotate (xyz 0 0 0))
+  )
+)
