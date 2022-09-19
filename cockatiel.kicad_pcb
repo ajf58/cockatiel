@@ -2203,7 +2203,7 @@
   (gr_text "Featherstone 220917" (at 108.547619 141.75) (layer "F.SilkS") (tstamp 02156b1e-a63a-47ae-90bc-cb87e2c625fc)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (gr_text "Cockateil" (at 104.002381 139.5) (layer "F.SilkS") (tstamp 663dfcf1-60d3-45f3-b3bc-acb9b50e6aa4)
+  (gr_text "Cockatiel" (at 104.002381 139.5) (layer "F.SilkS") (tstamp 663dfcf1-60d3-45f3-b3bc-acb9b50e6aa4)
     (effects (font (size 1.5 1) (thickness 0.25) italic))
   )
   (gr_text "JLCJLCJLCJLC" (at 124 109) (layer "F.SilkS") (tstamp f5020366-7668-462e-9756-b781416a5818)
