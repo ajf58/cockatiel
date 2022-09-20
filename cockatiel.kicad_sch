@@ -2688,7 +2688,7 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 1de3cbbf-45ab-49f0-b67d-ce7bb5faeb84)
     (property "Reference" "J10" (id 0) (at 211.455 90.805 90))
-    (property "Value" "MIC_N_BYPASS" (id 1) (at 211.455 93.345 90))
+    (property "Value" "MIC_N_BYP" (id 1) (at 211.455 93.345 90))
     (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" (id 2) (at 211.455 88.265 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -2780,7 +2780,7 @@
     (in_bom yes) (on_board yes)
     (uuid 2f019ab0-d6fb-4af8-8459-162264a4a1ff)
     (property "Reference" "J8" (id 0) (at 91.44 45.085 0))
-    (property "Value" "PANEL_LED" (id 1) (at 91.44 47.625 0))
+    (property "Value" "LED" (id 1) (at 91.44 47.625 0))
     (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" (id 2) (at 91.44 41.275 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -2921,7 +2921,7 @@
     (in_bom yes) (on_board yes)
     (uuid 597501d4-6d2d-4f6a-a175-9a258bb0b552)
     (property "Reference" "J6" (id 0) (at 29.21 66.04 0))
-    (property "Value" "PANEL_POWER_BUTTON (MFB)" (id 1) (at 29.21 68.58 0))
+    (property "Value" "PWR" (id 1) (at 29.21 68.58 0))
     (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" (id 2) (at 29.21 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -2940,7 +2940,7 @@
     (uuid 5f62a08e-6be9-45e2-bf22-6de3b21ef883)
     (property "Reference" "T1" (id 0) (at 210.82 51.435 0))
     (property "Value" "Transformer_Audio" (id 1) (at 210.82 53.975 0))
-    (property "Footprint" "cockateil:Transformer_Triad_T Y-141PN" (id 2) (at 210.82 61.595 0)
+    (property "Footprint" "cockatiel:Transformer_Triad_T Y-141PN" (id 2) (at 210.82 61.595 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 210.82 61.595 0)
@@ -3529,7 +3529,7 @@
     (uuid c37583e6-c604-4aaf-93a5-b66170709844)
     (property "Reference" "L1" (id 0) (at 194.945 41.275 90))
     (property "Value" "15nH" (id 1) (at 194.945 43.815 90))
-    (property "Footprint" "Inductor_SMD:L_0805_2012Metric_Pad1.05x1.20mm_HandSolder" (id 2) (at 194.945 47.625 0)
+    (property "Footprint" "Inductor_SMD:L_0402_1005Metric_Pad0.77x0.64mm_HandSolder" (id 2) (at 194.945 47.625 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 194.945 47.625 0)
@@ -3761,7 +3761,7 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid eac70146-2642-43ab-b28e-ab957e7eabdf)
     (property "Reference" "J9" (id 0) (at 211.455 43.18 90))
-    (property "Value" "MIC_P_BYPASS" (id 1) (at 211.455 45.72 90))
+    (property "Value" "MIC_P_BYP" (id 1) (at 211.455 45.72 90))
     (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" (id 2) (at 211.455 40.005 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -3956,19 +3956,19 @@
       (reference "J5") (unit 1) (value "Magnetic connector") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical")
     )
     (path "/597501d4-6d2d-4f6a-a175-9a258bb0b552"
-      (reference "J6") (unit 1) (value "PANEL_POWER_BUTTON (MFB)") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
+      (reference "J6") (unit 1) (value "PWR") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
     )
     (path "/bc1f933b-c0f8-46eb-b1aa-4dc1985ef959"
       (reference "J7") (unit 1) (value "Battery Connector") (footprint "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal")
     )
     (path "/2f019ab0-d6fb-4af8-8459-162264a4a1ff"
-      (reference "J8") (unit 1) (value "PANEL_LED") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
+      (reference "J8") (unit 1) (value "LED") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
     )
     (path "/eac70146-2642-43ab-b28e-ab957e7eabdf"
-      (reference "J9") (unit 1) (value "MIC_P_BYPASS") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
+      (reference "J9") (unit 1) (value "MIC_P_BYP") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
     )
     (path "/1de3cbbf-45ab-49f0-b67d-ce7bb5faeb84"
-      (reference "J10") (unit 1) (value "MIC_N_BYPASS") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
+      (reference "J10") (unit 1) (value "MIC_N_BYP") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
     )
     (path "/cbf058c9-f6e8-4d64-a6ce-55d23fcbb262"
       (reference "J11") (unit 1) (value "MIC_P_SEL") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
@@ -3989,7 +3989,7 @@
       (reference "J16") (unit 1) (value "Headset/Mic In") (footprint "Connector_Audio:Jack_3.5mm_PJ320D_Horizontal")
     )
     (path "/c37583e6-c604-4aaf-93a5-b66170709844"
-      (reference "L1") (unit 1) (value "15nH") (footprint "Inductor_SMD:L_0805_2012Metric_Pad1.05x1.20mm_HandSolder")
+      (reference "L1") (unit 1) (value "15nH") (footprint "Inductor_SMD:L_0402_1005Metric_Pad0.77x0.64mm_HandSolder")
     )
     (path "/a7b88367-e071-4dad-a025-676cba3104ed"
       (reference "R1") (unit 1) (value "330") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
@@ -4016,7 +4016,7 @@
       (reference "R8") (unit 1) (value "2K2") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
     (path "/5f62a08e-6be9-45e2-bf22-6de3b21ef883"
-      (reference "T1") (unit 1) (value "Transformer_Audio") (footprint "cockateil:Transformer_Triad_T Y-141PN")
+      (reference "T1") (unit 1) (value "Transformer_Audio") (footprint "cockatiel:Transformer_Triad_T Y-141PN")
     )
     (path "/cd8320ae-7922-4c4d-bb7a-8f1cd3b5f307"
       (reference "U1") (unit 1) (value "F-3188_CSR8645") (footprint "bluetooth:F-3188_CSR8645")
