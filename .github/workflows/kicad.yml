@@ -13,10 +13,12 @@ jobs:
   build:
     runs-on: ubuntu-latest
     # TODO currently there's no tagged version for 7.0.x
-    container: kicad/kicad:nightly
+    container:
+      image: kicad/kicad:nightly
+      options: --user root
 
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
